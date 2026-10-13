@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+
+# 送信先リスト（個人情報）。見本は accounts.example.json
+accounts.json
+
+# bot の招待リンクとその QR コード（generate_bot_qr.py で再生成できる）
+共有用リンク.txt
+bot_invite_qr.png
+
+# generate_images.py が作る画像
+output/
